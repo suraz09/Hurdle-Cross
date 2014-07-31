@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-image:url(../images/wall.jpg);
+	background-repeat:repeat;
+}
+#success {
+	background-image:url(../images/success.gif);
+	top: 0;
+	left: 500;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	display: none;
+}
+.mario {
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top: 615px;
+	left: 200px;
+	background:url(../images/h1.gif);
+	z-index: 1;
+}
+.bottom-obstacle {
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	top: 600px;
+	left: 800px;
+	background:url(../images/train_.gif);
+}
+.coindiv {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 550px;
+	left: 800px;
+	background:url(../images/coin.png);
+	background-repeat:repeat;
+}
+#game-over {
+	background: black;
+	margin: 0 auto;
+	width: 400px;
+	height: 500px;
+	top: 100px;
+	left: 500px;
+	position: absolute;
+	display: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	color: red;
+}
+.game-over-header {
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 45px;
+	color: grey;
+}
+.yourscore {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 28px;
+	width: 400px;
+	float: left;
+	color: blue;
+}
+.highscore {
+	font-family:"Courier New", Courier, monospace;
+	font-size: 28px;
+	width: 400px;
+	float: right;
+	color: green;
+}
